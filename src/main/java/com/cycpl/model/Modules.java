@@ -2,55 +2,63 @@ package com.cycpl.model;
 
 public class Modules {
 
-	String ModuleId, ModuleName, AccessTypeId, ParentModuleId, ModuleTypeId, ModuleURI;
+	String moduleid, modulename, accesstypeid, parentmoduleid, moduletypeid, moduleuri,parentmodulename;
 
-	public String getModuleId() {
-		return ModuleId;
+	public String getModuleid() {
+		return moduleid;
 	}
 
-	public void setModuleId(String moduleId) {
-		ModuleId = moduleId;
+	public void setModuleid(String moduleid) {
+		this.moduleid = moduleid;
 	}
 
-	public String getModuleName() {
-		return ModuleName;
+	public String getModulename() {
+		return modulename;
 	}
 
-	public void setModuleName(String moduleName) {
-		ModuleName = moduleName;
+	public void setModulename(String modulename) {
+		this.modulename = modulename;
 	}
 
-	public String getAccessTypeId() {
-		return AccessTypeId;
+	public String getAccesstypeid() {
+		return accesstypeid;
 	}
 
-	public void setAccessTypeId(String accessTypeId) {
-		AccessTypeId = accessTypeId;
+	public void setAccesstypeid(String accesstypeid) {
+		this.accesstypeid = accesstypeid;
 	}
 
-	public String getParentModuleId() {
-		return ParentModuleId;
+	public String getParentmoduleid() {
+		return parentmoduleid;
 	}
 
-	public void setParentModuleId(String parentModuleId) {
-		ParentModuleId = parentModuleId;
+	public void setParentmoduleid(String parentmoduleid) {
+		this.parentmoduleid = parentmoduleid;
 	}
 
-	public String getModuleTypeId() {
-		return ModuleTypeId;
+	public String getModuletypeid() {
+		return moduletypeid;
 	}
 
-	public void setModuleTypeId(String moduleTypeId) {
-		ModuleTypeId = moduleTypeId;
+	public void setModuletypeid(String moduletypeid) {
+		this.moduletypeid = moduletypeid;
 	}
 
-	public String getModuleURI() {
-		return ModuleURI;
+	public String getModuleuri() {
+		return moduleuri;
 	}
 
-	public void setModuleURI(String moduleURI) {
-		ModuleURI = moduleURI;
+	public void setModuleuri(String moduleuri) {
+		this.moduleuri = moduleuri;
 	}
+
+	public String getParentmodulename() {
+		return parentmodulename;
+	}
+
+	public void setParentmodulename(String parentmodulename) {
+		this.parentmodulename = parentmodulename;
+	}
+
 	
-
 }
